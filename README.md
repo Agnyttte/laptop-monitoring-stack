@@ -4,7 +4,7 @@ A small, working infrastructure monitoring stack built with **Docker Compose**, 
 
 Built for the PFD200 Professional Development module (FdSc Computing, NCG), September–October 2026, as practice for a Junior IT Infrastructure Engineer role.
 
-![Architecture](screenshots/architecture.png)
+![Architecture](architecture.png)
 
 ## What it does
 
@@ -46,9 +46,9 @@ Alerting was tested by temporarily lowering the memory threshold: the alert went
 
 | | |
 |---|---|
-| ![CPU](screenshots/cpu-dashboard.png) | ![Memory](screenshots/memory-dashboard.png) |
-| ![Disk](screenshots/disk-dashboard.png) | ![Uptime](screenshots/uptime-dashboard.png) |
-| ![Targets](screenshots/prometheus-targets.png) | ![Alert firing](screenshots/alert-firing.png) |
+| ![CPU](cpu-dashboard.png) | ![Memory](memory-dashboard.png) |
+| ![Disk](disk-dashboard.png) | ![Uptime](uptime-dashboard.png) |
+| ![Targets](prometheus-targets.png) | ![Alert firing](alert-firing.png) |
 
 ## Known limitations
 
@@ -65,8 +65,8 @@ Alerting was tested by temporarily lowering the memory threshold: the alert went
 
 ## Further documents
 
-- [Industry research presentation](docs/Industry_Research_Presentation.pptx)
-- [Job advert log](docs/Industry_Research_Advert_Log.xlsx)
+- [Industry research presentation](Industry_Research_Presentation.pptx)
+- [Job advert log](Industry_Research_Advert_Log.xlsx)
 
 ## Future work
 
